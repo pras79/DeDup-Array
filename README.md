@@ -12,13 +12,13 @@ Set to remove the duplicates - order maintained but auxiliary array is used
 Time complexity O(n) 
 Space complexity:  O(n) since auxiliary array is used.
 We can use this approach if we have enough memory to consume.
-This won’t be the ideal solution if the we have memory concerns 
-performance  wise it is an ideal solution to choose.
+This won’t be the ideal solution if the we have memory constraints 
+performance  wise it is an ideal solution to choose.it is quicker than othet two approaches
 # Method 3: 
  Using Java streams to remove the duplicates.concise and less code and easy to read but again not as fast  method 2. But it consumes les memory as no auxiliary data structure used
 Space Complexity:  constant space
 
-this is the ideal solution for big input data.choose this if you have large amount of data as strams are reallt works well with big data conditions
+this is the ideal solution for big input data.choose this if you have large amount of data as streams are really good for big input 
 
-but performance wise slowern than method 2
+but performance wise not a best solution
 
